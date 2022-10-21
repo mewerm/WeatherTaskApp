@@ -1,6 +1,5 @@
 package com.maximmesh.weathertaskapp.data
 
-
 data class WeatherModel(
     val city: String,
     val time: String,
