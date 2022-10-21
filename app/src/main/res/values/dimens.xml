@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_layout_width">0dp</dimen>
+    <dimen name="text_layout_margin_top">22dp</dimen>
+    <dimen name="text_layout_padding">8dp</dimen>
+    <dimen name="picture_width">100dp</dimen>
+    <dimen name="picture_height">100dp</dimen>
+    <dimen name="city_name_text_size">42sp</dimen>
+    <dimen name="city_name_text_margin">16dp</dimen>
+    <dimen name="current_temp_margin">16dp</dimen>
+    <dimen name="current_temp_text_size">50sp</dimen>
+    <dimen name="data_text_size">20sp</dimen>
+    <dimen name="tab_layout_width">0dp</dimen>
+    <dimen name="tab_layout_margin">8dp</dimen>
+    <dimen name="view_pager_margin">8dp</dimen>
+    <dimen name="view_pager_width">0dp</dimen>
+    <dimen name="view_pager_height">0dp</dimen>
+</resources>

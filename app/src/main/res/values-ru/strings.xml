@@ -1,8 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">WeatherTaskApp</string>
-
-    <string name="hours">Hours</string>
-    <string name="days">Days</string>
+    <string name="hours">По дням</string>
+    <string name="days">По часам</string>
     <string name="search_text">Поиск погоды по городам</string>
     <string name="text_layout_helper_text">Введите корректное название города</string>
 
