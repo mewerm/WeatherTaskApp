@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.maximmesh.weathertaskapp.R
 import com.maximmesh.weathertaskapp.data.WeatherModel
 import com.maximmesh.weathertaskapp.databinding.CardItemBinding
+import com.maximmesh.weathertaskapp.utils.convertDegreeToString
 import com.squareup.picasso.Picasso
 
 class WeatherAdapter : ListAdapter<WeatherModel, WeatherAdapter.Holder>(Comparator()){
@@ -19,7 +20,7 @@ class WeatherAdapter : ListAdapter<WeatherModel, WeatherAdapter.Holder>(Comparat
 
         fun bind(item: WeatherModel) = with(binding){
             data.text = item.time
-            currentTemp.text = item.currentTemp
+            currentTemp.text =  convertDegreeToString(item.currentTemp) //конвертация double в градусы string
             Picasso.get().load("https:" + item.imageUrl).into(picture)
         }
     }

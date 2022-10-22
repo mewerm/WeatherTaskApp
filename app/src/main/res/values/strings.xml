@@ -3,8 +3,16 @@
 
     <string name="hours">Hours</string>
     <string name="days">Days</string>
-    <string name="search_text">Поиск погоды по городам</string>
-    <string name="text_layout_helper_text">Введите корректное название города</string>
+    <string name="search_text">Check weather by Cities</string>
+    <string name="text_layout_helper_text">Enter the correct name of the city</string>
+
+
+    <string name="dialog_rationale_title">THE APPLICATION GEOLOCATION ACCESS</string>
+    <string name="dialog_rationale_message">To get the weather of your current location, the app must be granted access to your devices geolocation</string>
+    <string name="dialog_rationale_give_access">ALLOW</string>
+    <string name="dialog_rationale_decline">DENY</string>
+    <string name="toast_when_wont_to_giv_location">"Use the search and find the weather in any other city"</string>
+    <string name="city_name">Enter an city name:</string>
 
 
 </resources>
