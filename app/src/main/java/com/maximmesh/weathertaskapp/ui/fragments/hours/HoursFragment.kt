@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.maximmesh.weathertaskapp.adapters.recycler.WeatherAdapter
+import com.maximmesh.weathertaskapp.ui.adapters.recycler.WeatherAdapter
 import com.maximmesh.weathertaskapp.data.WeatherModel
 import com.maximmesh.weathertaskapp.databinding.FragmentHoursBinding
 import com.maximmesh.weathertaskapp.ui.fragments.main.MainViewModel

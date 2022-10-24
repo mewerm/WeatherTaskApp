@@ -1,4 +1,4 @@
-package com.maximmesh.weathertaskapp.adapters.pager
+package com.maximmesh.weathertaskapp.ui.adapters.pager
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

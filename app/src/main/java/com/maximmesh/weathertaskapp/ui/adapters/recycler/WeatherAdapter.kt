@@ -1,4 +1,4 @@
-package com.maximmesh.weathertaskapp.adapters.recycler
+package com.maximmesh.weathertaskapp.ui.adapters.recycler
 
 import android.view.LayoutInflater
 import android.view.View

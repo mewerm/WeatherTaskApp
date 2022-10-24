@@ -26,7 +26,7 @@ import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
 import com.google.android.material.tabs.TabLayoutMediator
 import com.maximmesh.weathertaskapp.R
-import com.maximmesh.weathertaskapp.adapters.pager.PagerAdapter
+import com.maximmesh.weathertaskapp.ui.adapters.pager.PagerAdapter
 import com.maximmesh.weathertaskapp.data.WeatherModel
 import com.maximmesh.weathertaskapp.databinding.FragmentMainBinding
 import com.maximmesh.weathertaskapp.ui.fragments.days.DaysFragment
@@ -48,7 +48,6 @@ class MainFragment : Fragment() {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private val locationPermission: String = Manifest.permission.ACCESS_FINE_LOCATION
     private lateinit var permissionLauncher: ActivityResultLauncher<String>
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -153,7 +152,7 @@ class MainFragment : Fragment() {
 
     private fun getLocation() {
         if (!isLocationEnabled()) {
-            toast("Для работы приложения необходимо включить GPS")
+            toast("GPS must be enabled for the application to work")
             return
         }
         val ct = CancellationTokenSource()
