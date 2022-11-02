@@ -18,8 +18,8 @@ class HoursFragment: Fragment() {
 
     private var _binding: FragmentHoursBinding? = null
     private val binding get() = _binding!!
-    private lateinit var adapter: WeatherAdapter
 
+    private lateinit var adapter: WeatherAdapter
     private val viewModel: MainViewModel by activityViewModels()
 
     override fun onCreateView(
